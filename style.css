@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: white ;
+}
+
+.navbar{
+    background: #3474e6;
+    color: white;
+    height: 60px;
+
+}
+
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.navbar a:hover{
+    color: lightblue;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    margin-right: 30px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.row{
+    align-items: center;
+    background: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.row .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.row .card {
+    margin: 10px 20px;
+    background: lightgrey ;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.row .card h2{
+    font-style: italic;
+    line-height: 60px;
+}
+
+.row .card h5{
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.row .posted-date{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.row .card p{
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.row .img{
+    border-radius: 10px;
+}
+
+.row button{
+    background-color: lightblue;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    font-style: italic;
+    box-shadow: 5px 5px;
+}
+
+.row button:hover{
+    background: white;
+}
+
+.footer-section{
+    text-align: center;
+    background: lightgrey;
+    left: 0;
+    bottom: 0;
+    padding: 20px 20px;
+}
+
+.title-flex{
+    text-align: center;
+    margin: 20px 20px;
+    font-style: italic;
+}
+
+.title-grid{
+    text-align: center;
+    margin: 20px 20px;
+    font-style: italic;
+}
+
+@media (max-width: 786px){
+    .row .content{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
